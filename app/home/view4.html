@@ -1,0 +1,444 @@
+<div ng-controller="View1Ctrl">
+	<section class="mainContentWrapper">
+        	   		  <div  class="col-xs-4  collapseFilter">
+        	   	     
+						        <nav class="navbar navbar-default">
+  							      <div class="container-fluid">
+    							      <!-- Brand and toggle get grouped for better mobile display -->
+    							      <div class="navbar-header">
+      								    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        								    <span class="sr-only">Toggle navigation</span>
+        								    <span class="icon-bar"></span>
+        								    <span class="icon-bar"></span>
+        								    <span class="icon-bar"></span>
+      								    </button>
+    							      </div>
+
+    							      <!-- Collect the nav links, forms, and other content for toggling -->
+    							      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    							      	<div class="panel-group" id="accordion">
+  								       		<div class="panel panel-default">
+  								       		  	<div class="panel-heading">
+  								       		    	<h4 class="panel-title">
+  								       		      		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Collapsible Group Item #1</a>
+      											      </h4>
+    										        </div>
+    										        <div id="collapseOne" class="panel-collapse collapse in">
+    										          	<div class="panel-body">
+    										            	<ul type="none">
+                                      <h3>Collapse Group Title1</h3>
+    										        			<li><a href="#" class="tabLinks">Content 1</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 2</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 3</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 4</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 5</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 6</a></li>
+    										        			<li><a href="#" class="tabLinks"
+    										        			 id="addAnotherTab" data-toggle="modal" data-target="#anotherTabContent" data-backdrop="static" data-keyboard="false">
+    										        			Add Another Content</a></li>
+
+    										        		</ul>
+    										          	</div>
+    										        </div>
+  										      </div><!-- panel accordian ends -->
+
+
+  										      <div class="panel panel-default">
+  										        	<div class="panel-heading">
+  										          	<h4 class="panel-title">
+  										            		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">Collapsible Group Item #2</a>
+      											      </h4>
+    										        </div>
+    										        <div id="collapseTwo" class="panel-collapse collapse">
+    										          	<div class="panel-body">
+    										            	<ul type="none">
+                                      <h3>Collapse Group Title2</h3>
+    										        			<li><a href="#" class="tabLinks">Content 1</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 2</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 3</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 4</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 5</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 6</a></li>
+    										        		</ul>
+    										          	</div>
+    										        </div>
+  										      </div><!-- panel accordian ends -->
+
+  										      <div class="panel panel-default">
+  										        	<div class="panel-heading">
+  										          	<h4 class="panel-title">
+  										            		<a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Collapsible Group Item #3</a>
+      											      </h4>
+    										        </div>
+    										        <div id="collapseThree" class="panel-collapse collapse">
+    										          	<div class="panel-body">
+    										            	<ul type="none">
+                                      <h3>Collapse Group Title3</h3>
+    										        			<li><a href="#" class="tabLinks">Content 1</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 2</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 3</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 4</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 5</a></li>
+    										        			<li><a href="#" class="tabLinks">Content 6</a></li>
+
+               
+    										        		</ul>
+    										          	</div>
+    										        </div>
+  										      	</div><!-- panel accordian ends -->
+
+
+
+  							<p style="margin:0 0 20px;"><a href="#!/view1" id="addAnotherTab" data-toggle="modal" data-target="#anotherTabModal" data-backdrop="static" data-keyboard="false">Add Another Component</a></p> 
+  								<div id="anotherTabModal" class="modal fade" role="dialog">
+        							<div class="modal-dialog">
+        								<!-- Modal content-->
+        								<div class="modal-content">
+        									<div class="modal-header">
+        										<a href="index.html" class="profileBackToHome componentPrevious" data-dismiss="modal">Back To Home</a>
+        										<h4 class="modal-title">Add Another Component</h4>
+        									</div>
+        									<div class="modal-body">
+        										<div class="panel panel-info" >    
+                                      				<div class="panel-body" >
+														<div id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                            				<form id="loginform" class="form-horizontal" role="form">
+                                            					<div class="input-group">
+                                            						<span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                                                    				<input id="companyname" type="text" class="form-control" name="companyname" value="" placeholder="Component Name">
+                                                				</div>
+
+                                                      <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-header" aria-hidden="true"></i></span>
+                                                            <input id="companyname" type="text" class="form-control" name="companyname" value="" placeholder="Content Title">
+                                                        </div>  
+                                               
+                                                				<div class="loginButtons">
+                                                				  <button id="btn-login">Add Tab</button>
+                                                				  <button id="btn-reset">Reset</button>
+                                                				</div>  
+                                          					</form>     
+                                      					</div>                     
+                                  					</div>  
+        									</div>
+        										
+        									<div class="modal-footer">
+        										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        									</div>
+        								</div>
+        								</div>
+    									</div><!-- anotherTabModal ends -->     
+
+    							<!-- anotherTabContent ends -->  
+    							<div id="anotherTabContent" class="modal fade" role="dialog">
+        							<div class="modal-dialog">
+        								<!-- Modal content-->
+        								<div class="modal-content">
+        									<div class="modal-header">
+        										<a href="index.html" class="profileBackToHome componentPrevious" data-dismiss="modal">Back To Home</a>
+        										<h4 class="modal-title">Add Another Content</h4>
+        									</div>
+        									<div class="modal-body">
+        										<div class="panel panel-info" >    
+                                      				<div class="panel-body" >
+														<div id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                            				<form id="loginform" class="form-horizontal" role="form">
+
+                                                      <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-tags" aria-hidden="true"></i></span>
+                                                            <input id="contentTitle" type="text" class="form-control" name="contentTitle" value="" placeholder="Content Title">
+                                                        </div>
+
+                                            					<div class="input-group">
+                                            						<span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                                                    				<input id="companyname" type="text" class="form-control" name="companyname" value="" placeholder="Tab Title">
+                                                				</div>
+
+                                                        <div class='input-group date' id='datetimepicker1'>
+                                                            <span class="input-group-addon">
+                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                            </span>
+                                                            <input type='text' class="form-control" />
+                                                            
+                                                        </div>
+
+
+                                                        <div class="input-group">
+                                                    				<span class="input-group-addon"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                                                    				<textarea id="contentDescription" type="text" class="form-control" name="contentDescription" value="" placeholder="Content Description" row="5"></textarea>
+                                                				</div>
+
+
+                                                          <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                                                            <input id="authorName" type="text" class="form-control" name="Author Name" value="" placeholder="Author Name">
+                                                        </div>
+                                               
+                                                				<div class="loginButtons">
+                                                				  <button id="btn-login">Add Content</button>
+                                                				  <button id="btn-reset">Reset</button>
+                                                				</div>  
+                                          					</form>     
+                                      					</div>                     
+                                  					</div>  
+        									</div>
+        										
+        									<div class="modal-footer">
+        										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        									</div>
+        								</div>
+        								</div>
+    									</div><!-- anotherTabModal ends -->
+
+
+
+
+    									<!-- anotherTabContent ends -->  
+    							<div id="anotherTabModalContent" class="modal fade" role="dialog">
+        							<div class="modal-dialog">
+        								<!-- Modal content-->
+        								<div class="modal-content">
+        									<div class="modal-header">
+        										<a href="index.html" class="profileBackToHome componentPrevious" data-dismiss="modal">Back To Home</a>
+        										<h4 class="modal-title">Add Another Content</h4>
+        									</div>
+        									<div class="modal-body">
+        										<div class="panel panel-info" >    
+                                      				<div class="panel-body" >
+														<div id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                            				<form id="loginform" class="form-horizontal" role="form">
+                                            					
+                                                      <div class="input-group">
+                                                        <span class="input-group-addon"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+                                                            <input id="descriptioncompanyname" type="text" class="form-control" name="descriptioncompanyname" value="" placeholder="Tab Title">
+                                                        </div>
+
+                                                        <div class='input-group date' id='datetimepicker2'>
+                                                            <span class="input-group-addon">
+                                                                <i class="fa fa-calendar" aria-hidden="true"></i>
+                                                            </span>
+                                                            <input type='text' class="form-control" />
+                                                            
+                                                        </div>
+
+
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-commenting-o" aria-hidden="true"></i></span>
+                                                            <textarea id="descriptioncontentDescription" type="text" class="form-control" name="descriptioncontentDescription" value="" placeholder="Content Description" row="5"></textarea>
+                                                        </div>
+
+
+                                                          <div class="input-group">
+                                                            <span class="input-group-addon"><i class="fa fa-user-circle" aria-hidden="true"></i></span>
+                                                            <input id="descriptionauthorName" type="text" class="form-control" name="description Author Name" value="" placeholder="Author Name">
+                                                        </div>
+                                                				<div class="loginButtons">
+                                                				  <button id="btn-login">Save</button>
+                                                				  <button id="btn-reset">Reset</button>
+                                                				</div>  
+                                          					</form>     
+                                      					</div>                     
+                                  					</div>  
+        									</div>
+        										
+        									<div class="modal-footer">
+        										<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        									</div>
+        								</div>
+        								</div>
+    									</div><!-- anotherTabModal ends -->
+
+
+
+
+
+
+
+
+                          				</div> 							
+    						        </div> <!--/.navbar-collapse -->
+  							      </div> <!--/.container-fluid -->
+						      </nav> <!--nav ends -->
+						    </div><!-- collapseFilter ends -->
+
+        	   		
+                <div class="col-xs-8 contentBlock">
+                  <div class="blogsContainers" id="w">
+        	   				<div class="blogsEnvelope">
+        	   						<div class="blogHeader">
+        	   							<h2>Silence of Sanity</h2>
+        	   					    	<span class="blogPublisherAndDate">Arab News - 04/09/2015</span>
+        	   						</div>
+        	   						<div class="blogContent">
+        	   							<p>The gruesome killing of India's renowned writer and academician M. M. Kalburgi has sent shock waves among all those who dream of a secular national and equitable India. The 77-year-old who was killed at his home was the winner of the Sahitya Academy the country's top literary award... </p>
+
+        	   							<div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+  											      <div class="modal-dialog" role="document">
+  											  	    <div class="modal-content">
+  											    	    <div class="modal-header">
+        												      <h4 class="modal-title" id="gridModalLabel"> Human rights</h4>
+        												      <span>
+        												      	 The Telegraph-2nd May 2016-LE 
+        												      </span>
+      												    </div>
+      												    <div class="modal-body">
+      											        <p>
+															        Sir - Recently, Kashmir was on the boil again ("Ordinary lives", April 20). First, there was the unrest at the National Institute of Technology in Srinagar. Then came the protests following the alleged molestation of a schoolgirl by a jawan in Handwara. Five civilians, including a budding cricketer, have died in the firing on protesters by security personnel.</p>
+
+                                    <span>- Ramesh G Jethwani Bangalore.</span>    
+      												    </div>
+      												    <div class="modal-footer">
+      												      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      												    </div>
+    											      </div>
+  											      </div>
+										      </div>
+
+        	   							<div class="bd-example bd-example-padded-bottom">
+  											      <button type="button" data-toggle="modal" data-target="#gridSystemModal">
+	    									      Read More</button>
+										      </div>
+        	   						</div><!-- blogContent ends -->
+        	   					</div><!-- blogsEnvelopeEnds -->
+
+
+                      <div class="blogsEnvelope">
+                        <div class="blogHeader">
+                          <h2>Silence of Sanity</h2>
+                            <span class="blogPublisherAndDate">Arab News - 04/09/2015</span>
+                        </div>
+                        <div class="blogContent">
+                          <p>The gruesome killing of India's renowned writer and academician M. M. Kalburgi has sent shock waves among all those who dream of a secular national and equitable India. The 77-year-old who was killed at his home was the winner of the Sahitya Academy the country's top literary award... </p>
+
+                          <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title" id="gridModalLabel"> Human rights</h4>
+                                      <span>
+                                         The Telegraph-2nd May 2016-LE 
+                                      </span>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>
+                                      Sir - Recently, Kashmir was on the boil again ("Ordinary lives", April 20). First, there was the unrest at the National Institute of Technology in Srinagar. Then came the protests following the alleged molestation of a schoolgirl by a jawan in Handwara. Five civilians, including a budding cricketer, have died in the firing on protesters by security personnel.</p>
+
+                                    <span>- Ramesh G Jethwani Bangalore.</span>    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="bd-example bd-example-padded-bottom">
+                              <button type="button" data-toggle="modal" data-target="#gridSystemModal">
+                              Read More</button>
+                          </div>
+                        </div><!-- blogContent ends -->
+                      </div><!-- blogsEnvelopeEnds -->
+
+
+                      <div class="blogsEnvelope">
+                        <div class="blogHeader">
+                          <h2>Silence of Sanity</h2>
+                            <span class="blogPublisherAndDate">Arab News - 04/09/2015</span>
+                        </div>
+                        <div class="blogContent">
+                          <p>The gruesome killing of India's renowned writer and academician M. M. Kalburgi has sent shock waves among all those who dream of a secular national and equitable India. The 77-year-old who was killed at his home was the winner of the Sahitya Academy the country's top literary award... </p>
+
+                          <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title" id="gridModalLabel"> Human rights</h4>
+                                      <span>
+                                         The Telegraph-2nd May 2016-LE 
+                                      </span>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>
+                                      Sir - Recently, Kashmir was on the boil again ("Ordinary lives", April 20). First, there was the unrest at the National Institute of Technology in Srinagar. Then came the protests following the alleged molestation of a schoolgirl by a jawan in Handwara. Five civilians, including a budding cricketer, have died in the firing on protesters by security personnel.</p>
+
+                                    <span>- Ramesh G Jethwani Bangalore.</span>    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="bd-example bd-example-padded-bottom">
+                              <button type="button" data-toggle="modal" data-target="#gridSystemModal">
+                              Read More</button>
+                          </div>
+                        </div><!-- blogContent ends -->
+                      </div><!-- blogsEnvelopeEnds -->
+
+
+                      <div class="blogsEnvelope">
+                        <div class="blogHeader">
+                          <h2>Silence of Sanity</h2>
+                            <span class="blogPublisherAndDate">Arab News - 04/09/2015</span>
+                        </div>
+                        <div class="blogContent">
+                          <p>The gruesome killing of India's renowned writer and academician M. M. Kalburgi has sent shock waves among all those who dream of a secular national and equitable India. The 77-year-old who was killed at his home was the winner of the Sahitya Academy the country's top literary award... </p>
+
+                          <div id="gridSystemModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="gridModalLabel" aria-hidden="true">
+                              <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                      <h4 class="modal-title" id="gridModalLabel"> Human rights</h4>
+                                      <span>
+                                         The Telegraph-2nd May 2016-LE 
+                                      </span>
+                                  </div>
+                                  <div class="modal-body">
+                                    <p>
+                                      Sir - Recently, Kashmir was on the boil again ("Ordinary lives", April 20). First, there was the unrest at the National Institute of Technology in Srinagar. Then came the protests following the alleged molestation of a schoolgirl by a jawan in Handwara. Five civilians, including a budding cricketer, have died in the firing on protesters by security personnel.</p>
+
+                                    <span>- Ramesh G Jethwani Bangalore.</span>    
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="bd-example bd-example-padded-bottom">
+                              <button type="button" data-toggle="modal" data-target="#gridSystemModal">
+                              Read More</button>
+                          </div>
+                        </div><!-- blogContent ends -->
+                      </div><!-- blogsEnvelopeEnds -->
+                        <p id="addContentModelTab"><a href="#!/view1"  data-toggle="modal" data-target="#anotherTabModalContent" data-backdrop="static" data-keyboard="false"><i class="fa fa-plus" aria-hidden="true"></i></a></p>
+                    </div><!-- blogsContainer Ends -->
+                             
+                    
+                    <div class="PaginationWrap"  id="q">
+                        <nav aria-label="Page navigation">
+  									        <ul class="pagination">
+  									          <li>
+  									            <a href="#" aria-label="Previous">
+  									              <span aria-hidden="true">&laquo;</span>
+  									            </a>
+  									          </li>
+  									          <li><a href="#">1</a></li>
+  									          <li><a href="#">2</a></li>
+  									          <li><a href="#">3</a></li>
+  									          <li><a href="#">4</a></li>
+  									          <li><a href="#">5</a></li>
+  									          <li>
+  									            <a href="#" aria-label="Next">
+  									              <span aria-hidden="true">&raquo;</span>
+  									            </a>
+  									          </li>
+  									        </ul>
+								        </nav>
+                    </div><!-- PaginationWrap ends -->
+        	   			</div><!-- contentBlock ends -->
+        	   		</section><!-- section ends -->	
+</div>

@@ -1,0 +1,79 @@
+<div ng-controller="addArticleCtrl">
+  <a href="index.html" class="backToHome articleBackToHome" data-dismiss="modal">Back To Home</a>
+    <div class="addArticlesBlock" id="anotherTabModalContent">
+
+          <form name="RegisterForm" id="loginform" class="form-horizontal" role="form">
+
+                  <div class="input-group">
+                      <span class="input-group-addon requiredInput" for="articleTitle"><i class="fa fa-tags" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                      <input id="articleTitle" type="text" class="form-control" placeholder="Content Title"  ng-minlength="2" ng-model="formData.articleTitle"  name="articleTitle" >
+                  </div>
+
+                  <div class="errorAlertMessage" ng-messages="RegisterForm.articleTitle.$error" ng-show="RegisterForm.articleTitle.$touched || RegisterForm.$submitted">
+                        <div ng-message="required">Please  enter  the  Content  Title</div>
+                        <div ng-message="minlength">Content  Title must  be  between  8  characters.</div>
+                  </div>
+
+                  <!-- registerContentTitle ends -->
+
+
+
+                  <div class="input-group">
+                          <span class="input-group-addon requiredInput" for="TabTitle"><i class="fa fa-user-o" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                          <input id="TabTitle" type="text" class="form-control" placeholder="Tab Title" ng-minlength="2" ng-model="formData.TabTitle"  name="TabTitle" >
+                  </div>
+
+                  <div class="errorAlertMessage" ng-messages="RegisterForm.TabTitle.$error" ng-show="RegisterForm.TabTitle.$touched || RegisterForm.$submitted">
+                          <div ng-message="required">Please  enter  the  Tab  Title</div>
+                          <div ng-message="minlength">Tab  Title  must be  between  8  characters.</div>
+                  </div>
+
+                  <!-- TabTitle  ends -->
+                    
+                  <div class='input-group date'>
+                    <span class="input-group-addon requiredInput">
+                      <i class="fa fa-calendar" aria-hidden="true"></i><sup class="starSymbol">*</sup>
+                    </span>     
+                    <input type='date' class="form-control input-group-addon" placeholder="Date Format" ng-model="formData.dateSelection"/>
+                  </div>
+
+                  <div class="errorAlertMessage" ng-messages="RegisterForm.dateSelection.$error" ng-show="RegisterForm.dateSelection.$touched || RegisterForm.$submitted">
+                    <div ng-message="required">Please  enter  the  Establied Date</div>
+                  </div>
+
+                  <!-- date time picker ends -->
+
+                  <div class="input-group">
+                            <span class="input-group-addon  requiredInput" name="articleDescription"><i class="fa fa-commenting-o" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                            <trix-editor class="form-control textArea" name="articleDescription" ng-model="formData.articleDescription"  row="5"  ng-minlength="10" zng-model-options="{ updateOn: 'blur' }" spellcheck="false" class="trix-content" angular-trix trix-initialize="trixInitialize(e, editor);" trix-change="trixChange(e, editor);" trix-selection-change="trixSelectionChange(e, editor);" trix-focus="trixFocus(e, editor);" trix-blur="trixBlur(e, editor);" trix-file-accept="trixFileAccept(e, editor);" trix-attachment-add="trixAttachmentAdd(e, editor);" trix-attachment-remove="trixAttachmentRemove(e, editor);" placeholder="Content Description"></trix-editor>
+                    </div>
+
+                    <div class="errorAlertMessage" ng-messages="RegisterForm.articleDescription.$error" ng-show="RegisterForm.articleDescription.$touched || RegisterForm.$submitted">
+                            <div ng-message="required">Please  enter  the  Content  Description</div>
+                            <div ng-message="minlength">Content  Description must  be  between  100  characters.</div>
+                    </div>
+
+
+                    <!-- text area ends -->
+
+
+                    <div class="input-group">
+                          <span class="input-group-addon  requiredInput" name="authorName"><i class="fa fa-user-circle" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                          <input id="authorName" type="text" class="form-control" placeholder="Author Name"  ng-minlength="2" ng-model="formData.authorName"  name="authorName">
+                    </div>
+
+                    <div class="errorAlertMessage" ng-messages="RegisterForm.authorName.$error" ng-show="RegisterForm.authorName.$touched || RegisterForm.$submitted">
+                          <div ng-message="required">Please  enter  the  Author  Name</div>
+                          <div ng-message="minlength">Author  Name must  be  between  8  characters.</div>
+                    </div>
+
+                    <!-- author name ends -->
+
+                                               
+                    <div class="loginButtons">
+                          <button type="Submit" class="btn" id="btn-login" ng-disabled="!RegisterForm.$valid" ng-click="addArticles()">Add Content</button>
+                          <button type="reset" id="btn-reset">Reset</button>
+                    </div>  
+          </form>     
+      </div>
+</div><!-- View3Ctrl ends -->

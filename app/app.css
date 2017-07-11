@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+	html, body, div, span, object, iframe,h1, h2, h3, h4, h5, h6, p, 
+	blockquote, pre,abbr, address, cite, code,del, dfn, em, img, ins, 
+	kbd, q, samp,small, strong, sub, sup, var,b, i,dl, dt, dd, ol, ul, 
+	li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, 
+	tr, th, td,article, aside, canvas, details, figcaption, figure, footer, 
+	header, hgroup, menu, nav, section, summary,time, mark, audio, video 
+						{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline
+						;background:transparent;font-family:'lato',sans-serif;outline: none;} 
+    
+    
+    .envelope, .row{width: 100%;margin: 0 auto;max-width:1600px;}
+    
+    
+    header{width:100%;padding: 0;border-bottom:2px solid #e8e8e8;}
+    	.headerContent{width:100%;margin: 10px auto 0;padding:0 3%;}
+        .logoSack{width:70.33%;margin:20px 0 25px;padding:0px;}
+        .logoSack > p{font-size: 17px;margin: 30px 0 0;text-align: justify;}
+        .logoSack > p > a{font-weight:900;font-size: 14px;color:#000;text-decoration: underline;padding:0 5px;}
+        .authorImageSack{width: 29.60%;padding:0;margin: 0 0 25px;}
+        .authorImageSack > img{width:100%;} 
+
+	main{width:100%;clear: both;margin: 25px 0 0;}
+    	.mainContentWrapper{width:81.5%;margin: 0 auto;float: none;padding: 0;}
+    	
+    	.collapseFilter{width:29.66%;min-height:720px;max-height:820px;background:url('../images/table-img.gif');padding:10px 0 0;border-radius: 15px;overflow-y: scroll;}
+    	.navbar-default{margin: 0;padding: 10px;background-color:transparent;}
+		.container-fluid{padding: 5px;background-color:transparent;}
+		.navbar-collapse{padding: 0;}
+		.panel-group{margin: 0;background-color:transparent;}
+		.panel-title{background-color:#f5f5f5;}
+		.panel-group .panel{border-radius:10px;}
+		.panel-default>.panel-heading{border-radius:10px;background-color:#f5f5f5;}
+		#addAnotherTab{border-radius: 10px;background-color: #f5f5f5;color: #333;outline: none;text-decoration: none;
+			border: none;margin: 6px 0 0;padding: 6px 15px;width: 100%;text-align: center;display: block}
+		.navbar-default .navbar-collapse, .navbar-default .navbar-form{background-color:#e8e8e8;}
+		.panel-title > a:focus, a:hover{text-decoration: none;color: red;}
+		.panel-heading .accordion-toggle:after {font-family: 'FontAwesome'; content: "\f078"; float: right;color: grey;}
+		.panel-heading .accordion-toggle.collapsed:after {content: "\f054";}
+        .panel-body h3{text-align: center;color:gray;font-size: 15px;padding: 0 0 10px;}
+		.tabLinks:focus, .tabLinks:hover{text-decoration: none;color: red;}
+		.tabLinks{display: inline-block;padding: 10px 0;margin:0 0 5px;width: 100%;border: .1px solid #ddd;background-color: #fff;text-align: center;text-decoration: none;border-radius: 10px}
+        
+
+        
+		.contentBlock{width:70.33%;padding:10px 20px 0 30px;}
+		.blogsContainers{min-height:820px;}
+		.blogsEnvelope{width:44.42%;min-height:270px;border: 1px solid #CCC;box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.32);border-radius:10px;margin:0 30px 30px 0;float:left;}
+        .blogHeader{min-height: 55px;padding: 15px 25px;background-color:#e8e8e8;border-radius: 10px 10px 0 0px;}
+        .blogHeader > h2{font-size: 14px;font-weight: bold;margin: 0 0 5px;text-transform: uppercase;background-color: transparent;display: inline-block;width: 95%;}
+        .blogPublisherAndDate{font-size: 13px;background-color: transparent;display: block;}
+        .blogContent{padding: 20px 25px 10px;border-radius: 0 0 10px 10px;}
+        .blogContent > p{font-size: 15px;text-align: justify;}
+        .bd-example > button{font-size:13px;font-weight: bold;color:#000;padding: 10px 0;background-color: transparent;
+            border: transparent;outline: none;}
+       	#addContentModelTab a, #addContentModelTab a:hover{font-size: 50px;background-color:#f5f5f5;padding:15px 30px;
+       		border-radius:50%;color:#000;font-weight:bold;display: inline-block;outline: none;}
+
+        /*Edit block starts*/
+
+            .editButton, .editButton:hover{background: transparent!important;border:transparent!important;
+                color: #000!important;outline:none;padding: 0;font-size: 25px;}
+            .blogHeader .dropdown{float:right;margin:0 -10px 0 0;}
+            .blogHeader .dropdown-menu{float:right;right: 0;left: initial;padding: 0;min-width: 80px;border-radius:10px;}
+            .blogHeader .dropdown-menu .divider{padding: 0;margin:0;}
+            .blogHeader .dropdown-menu li a{padding: 10px 30px;display: block;}
+            .blogHeader .dropdown-menu li a:hover{color: #fff;background: #000;}
+            #editArticle:hover{border-radius:10px 10px 0 0;}
+            #removeArticle:hover{border-radius:0px 0px 10px 10px;}
+        /*edit block ends*/
+
+        .modal-dialog{border-radius:20px; }
+        .modal-title{font-size: 16px;font-weight: bold;margin:0 0 5px;}
+        .modal-header{border-radius: 20px 20px 0 0;}
+        .modal-header > span{font-size:16px;}
+        .modal-body > p{font-size:16px;text-align: justify;}
+        .modal-body > span{font-size:16px;font-weight: bold;display: block;padding:15px 0 0;}
+        .modelFooterSack{padding: 5px;border-radius: 0 0 20px 20px;clear: both;border: 5px solid #e5e5e5;
+        	border-top: none;background-color: #fff;}
+        .dateFormate{text-align: left;}    
+        .modelFooterSack > button{padding: 5px 15px;background-color:#e6e6e6;color: #000;margin: 0 10px 5px 0;}
+        .modelFooterSack > button:hover{color:#fff;background-color:#a65959;outline:none;}
+
+        .modalDialog{margin: 15vh auto;width: 100%!important;}
+        #gridSystemModal{background-color: transparent;}/*
+        .modal-backdrop{background-color:transparent;}*/
+
+        .PaginationWrap{padding:10px 0 0;min-height: 40px;width: 100%;clear:both;}   
+        .pagination{margin: 0;padding: 0;} 
+    footer{width:100%;clear: both;border-top:.1px solid #000;padding: 0 3%}
+    	.footerContent{width:100%;margin: 0 auto;}
+    	.footerContent > p{width:300px;padding:8px 0 0;border-right: 1px solid #000;font-size: 14px;}
+        .qmp{font-size:14px;color:#F00;text-decoration: none;}
+
+
+
+
+/*--------------profileContentBlog-----------------*/
+
+        .profileContentBlog{min-height: 700px;}
+        .authorDetails, .aboutAuthor, .newspaperInIndia, .newspaperInGccCountry, .cremationsFacilities,
+         .languagesAuthorWrite{margin: 0 0 20px;}
+        .profileBackToHome, .profileBackToHome:hover, .profileBackToHome:active{float: right;font-size: 13px;padding: 8px;font-weight: bold;background-color: #a65959;
+        	color: #fff;border-radius: 7px;margin: -10px 0 0px;} 
+        .componentPrevious{margin: 0!important;}	
+        .lettersToEditor{margin: 0 0 40px;}
+        .headerInBold{font-size: 18px;font-weight:bold;margin:0 0 15px;padding:0;text-align: justify;}
+        .pragraphContent{font-size: 16px;margin:0 0 15px;padding:0 10px;text-align: justify;}
+        .bolderContent{font-size: 16px;padding: 0;margin: 0;}
+        .cremationsFacilities > hr{margin: 0 0 10px;}
+        .make{margin: 0 0 10px;}
+        .listOfPapers{margin: 0 0 0 30px;}
+        .listOfPapers > li{font-size: 16px;padding:10px 0;}
+        .aboutAuthor > img{float: left;padding: 5px 15px 10px 0;display: inline-block;}
+
+
+
+
+/*------------------Register Page Style Starts-------------------*/
+        .modelWrapper{width: 80%;margin:50px auto;border-radius: 20px;}
+        .registerEnvelope{margin: 0 auto;padding: 0!important;
+        	max-width: 1024px;}
+        .registerloginSector{float: right;}
+        .registerloginSector a, .registerloginSector a:hover, .registerloginSector a:active,
+        .registerloginSector a:focus, .registerloginSector button{color: #fff;background-color:#a65959;width: 80px;
+            font-size: 16px;padding: 5px; display: inline-block;text-align: center;border-radius: 10px;outline: none;
+            text-decoration: none;}  
+        .registerloginSector a:first-child{margin: 0 10px 0 0;}      
+        .backImage, .registerWrapper{padding:0;}
+        .loginWrapper{display: none;margin: 15vh 0 0;}
+        input.error {border: 1px solid red;}
+        label.error {font-weight: normal;color: red;}
+        .errorAlertMessage{color: #a65959;margin: -5px 0 10px;word-spacing: 4px;}
+        .requiredInput{padding: 6px 8px;}
+        .starSymbol {font-size: 15px;color: red;margin: 0 0 0 5px;}
+
+        .modal{background: transparent;}
+        .modelContentSack{padding: 0;border: 5px solid #e8e8e8;border-radius: 10px 10px 0 0;
+    		border-bottom: 0;background-color: #fff;}
+        .modal-content{border: none;}
+        .input-group .requiredInput{max-width: 49px;}
+
+        .backImage{border-right: 5px solid #e8e8e8;}
+        .writterTitle{text-align: center;color: #000;font-size: 25px;font-weight: bold;background-color: #e8e8e8;
+            padding: 7px 5px;}
+        .backToHome{float: right;font-size: 11px;padding:7px 0 0;border-radius: 20px 20px 0 0;border-bottom: 0;}    
+        .genderWrap{margin: 0 auto 15px!important;}    
+        .radioButton{padding: 0;border-radius:50%;}    
+        .login-gender, .login-gender:focus{width: 25px!important;height:20px;box-shadow: none;}
+        .genderIcon{font-size: 30px;padding: 0 20px;}
+        .panel-info{border-color: transparent;box-shadow: none;}
+        .panel-info>.panel-heading{background-color:#f85032;color: #fff;}
+        .forgetPassword{float:right; font-size: 80%; position: relative;bottom:0;background: transparent;}
+        .panel-body{padding: 22px 15px 15px;}
+        #login-alert{display:none;}
+        #loginform{width:80%;margin: 0 auto;}
+        .input-group{min-height: 42px;margin: 0 0 15px;}  
+        .input-group > input{text-transform: capitalize;background: #fff;}
+        .backImage, .backImage > img{padding: 10px 5px 0;height:100%;max-height: 548px;}  
+        .form-control{font-size: 17px;padding: 20px;display: inline-block;}
+        .input-group-addon > i{background: transparent;font-size: 22px;min-width: 21px;max-width: 21px;}
+        .uploadFilesform{margin: 8px 0 20px 0px!important;}
+
+        .loginButtons{margin: 35px auto 0;display: flex;}
+        textarea{ resize: none;}
+        #btn-login, #btn-reset{margin: 0 auto;display:inline-block;background-color:#e8e8e8;
+            color:#000;outline: none;   border: none;padding: 10px 20px;border-radius: 17px;}
+        #btn-login:hover, #btn-reset:hover{background-color:#a65959;color: #fff;}    
+
+
+/*------------------Register Page Style Ends-------------------*/
+
+
+/*---------------------form css starts------------*/
+trix-toolbar .button_group{margin: 0;display: block;}
+.addArticlesBlock{width: 50%;margin: 50px auto;}
+.textArea{min-height: 200px;}
+.highlight{color: red!important;}
+.articleBackToHome, .articleBackToHome:hover{margin: -40px 10px 0 0;background: #000;padding: 10px 10px;color: #fff;border-radius: 20px;}
+
+
+/*form css ends*/
+

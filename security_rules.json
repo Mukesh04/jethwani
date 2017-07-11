@@ -1,0 +1,16 @@
+{
+  "rules": {
+    "main-titles" : {
+      ".read": true,
+      ".write": true
+    },
+    "sub-titles" : {
+      ".read": true,
+      ".write": true
+    },
+    "articles": {
+      ".read": true,
+      ".write": true
+    }
+  }
+}

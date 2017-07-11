@@ -1,0 +1,61 @@
+{
+  "maintitle" : [{
+    "title" : "Tributes/ Highlighting Distuingshed people",
+    "id" : 1
+  },{
+    "title" : "Tributes/ Highlighting",
+    "id" : 2
+  }],
+
+  "subtitle" : [{
+    "title" : "Tributes/Highlighting  legendary People",
+    "id" : 1,
+    "mainId": 1
+  },{
+    "title" : "Tributes/Highlighting",
+    "id" : 2,
+    "mainId": 1
+  },{
+    "title" : "Tributes/Highlighting",
+    "id" : 3,
+    "mainId": 2
+  },{
+    "title" : "Tributes/Highlighting",
+    "id" : 4,
+    "mainId": 2
+  }],
+
+  "articles":[{
+    "id" : 1,
+    "subid" : 1,
+    "title":"MARGARET THATCHER - BRITAIN'S ‘IRON LADY' REALLY DID CHANGE THE WORLD",
+    "subtitle":"The pioneer",
+    "date":"thursday, 11 april 2013",
+    "article":"Thatcher was a strong political leader who had a significant impact not only on britain, but on Europe and world politics. a global champion of free market economy, she pulled her country back from 35 years of socialism and gave millions of her countrymen the opportunity to do better for themselves and their families.",
+    "authorname":"Ramesh G Jethwani Bangalore."
+  },{
+    "id" : 2,
+    "subid" : 2,
+    "title":"MARGARET THATCHER1",
+    "subtitle":"The pioneer",
+    "date":"thursday, 11 april 2013",
+    "article":"Thatcher was a strong political leader who had a significant impact not only on britain, but on Europe and world politics. a global champion of free market economy, she pulled her country back from 35 years of socialism and gave millions of her countrymen the opportunity to do better for themselves and their families.",
+    "authorname":"Ramesh G Jethwani Bangalore."
+  },{
+    "id" : 3,
+    "subid" : 3,
+    "title":"MARGARET THATCHER 3",
+    "subtitle":"The pioneer",
+    "date":"thursday, 11 april 2013",
+    "article":"Thatcher was a strong political leader who had a significant impact not only on britain, but on Europe and world politics. a global champion of free market economy, she pulled her country back from 35 years of socialism and gave millions of her countrymen the opportunity to do better for themselves and their families.",
+    "authorname":"Ramesh G Jethwani Bangalore."
+  },{
+    "id" : 4,
+    "subid" : 4,
+    "title":"MARGARET THATCHER 4",
+    "subtitle":"The pioneer",
+    "date":"thursday, 11 april 2013",
+    "article":"Thatcher was a strong political leader who had a significant impact not only on britain, but on Europe and world politics. a global champion of free market economy, she pulled her country back from 35 years of socialism and gave millions of her countrymen the opportunity to do better for themselves and their families.",
+    "authorname":"Ramesh G Jethwani Bangalore."
+  }]
+}

@@ -1,0 +1,156 @@
+	@media only screen and (max-width: 500px){
+
+	}
+
+
+	@media only screen and (min-width : 320px) and (max-width : 359px){
+		.writterTitle{font-size: 23px;padding: 7px 0px;}
+	}
+	@media only screen and (min-width : 360px) and (max-width : 480px){
+
+	}
+
+
+	@media only screen and (max-width : 480px){
+		.collapseFilter{width: 100%;background: none;padding: 0px;min-height: 10px;background: none;}
+         
+
+		.headerContent{width:95%;margin: 10px 2.48% 0;}
+		.logoSack > p{font-size: 14px;}
+		.logoSack{width:100%;}
+		.backToHome{padding: 10px 0 0;}
+		.profileBackToHome, .profileBackToHome:hover, .profileBackToHome:active{font-size: 10px;margin:0;}
+		.modal-dialog{width: 300px;}
+		.authorImageSack{width: 100%;}
+		.authorImageSack > img {width: 50%;}
+
+
+        main{margin: 5px 0 0;}
+		.mainContentWrapper{width:95%;}
+		.navbar-header > button{float: left;margin: 10px 0 0 20px;}
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form{margin: 5px 0 0 5px;}
+	    .navbar-default{padding: 0;border:none;}
+
+	    #loginform{width: 95%;}
+	    .modal-body, .backImage, .registerWrapper, .loginWrapper{width: 100%;}
+	    .backImage, .backImage > img{max-height: 150px;margin: 0 auto;border: none;}
+
+	    .contentBlock {width: 100%;padding: 15px 10px 10px;}
+	    .blogsContainers{min-height: 0;} 
+	    .blogsEnvelope{width:100%;margin: 0 0 30px;}
+
+		.footerContent{width:95%;}
+		.footerContent > p{width:100%;text-align: center;border: none;padding: 0;}
+		.registerEnvelope{width: 95%;}
+
+
+		/*profile page*/
+		.headerInBold{font-size: 16px;margin:0 0 10px;text-align: center;}
+        .pragraphContent{font-size: 15px;margin:0 0 20px;}
+        .bolderContent{font-size: 15px;}
+        .aboutAuthor > img{float: none;margin: 0 auto;display: block;}
+        .authorDetails, .aboutAuthor, .newspaperInIndia, .newspaperInGccCountry, .lettersToEditor, .cremationsFacilities, .languagesAuthorWrite{margin: 0 0 30px;}
+
+	}
+
+	@media only screen and (min-width : 481px) and (max-width : 580px){
+		.blogsEnvelope{width:80%!important;margin: 0 0 30px 10%!important;}
+	}	
+
+	@media only screen and (min-width : 481px) and (max-width : 680px){
+		.collapseFilter{width:70%;background: none;padding: 0px;min-height: 10px;background: none;}
+
+		.headerContent{width:95%;margin: 10px 2.48% 0;padding: 0;}
+		.logoSack > p{font-size: 14px;}
+		.logoSack{width:50%;}
+		.backToHome{padding: 10px 0 0;}
+		.authorImageSack{width: 49%;}
+		.authorImageSack > img{width: 100%;margin: 43px auto 25px;display: block;}
+	     
+
+
+		.mainContentWrapper{width:95%;}
+	    .navbar-header > button{float: left;margin: 10px 0 0 20px;}
+        .navbar-default .navbar-collapse, .navbar-default .navbar-form{margin: 5px 0 0 5px;}
+	    .navbar-toggle{float: left;margin: 0 0 0 20px;} 
+	    .navbar-default{padding: 0;border:none;}
+
+	    #loginform{width: 95%;}
+	    .modal-body, .backImage, .registerWrapper, .loginWrapper{width: 100%;}
+	    .backImage, .backImage > img{max-height: 150px;margin: 0 auto;border: none;}
+
+	    .contentBlock {width: 100%;padding: 30px 10px 10px;}
+	    .blogsContainers{min-height: 0;} 
+	    .blogsEnvelope{width:47%;margin: 0 0 30px 15px;}
+	    .registerEnvelope{width: 90%;}
+
+		.footerContent{width:95%;}
+		.footerContent > p{width:100%;text-align: center;border: none;}
+	}
+
+
+	@media only screen and (min-width : 681px) and (max-width : 768px){
+	    .collapseFilter{width: 50%;margin: 10px 0 0;padding: 10px 0 0;background: none;min-height: 0;}
+		
+		.headerContent{width:95%;margin:10px 2.48% 0;padding: 0;}
+		.logoSack > p{font-size: 15px;}
+		.logoSack{width:70.33%;}
+		#btn-login, #btn-reset{padding: 10px 30px;}
+        .authorImageSack > img{margin: 5em 0 0;}	
+        .navbar-toggle {display: block;}
+		.navbar-collapse.collapse {display:contents;height: auto !important;padding-bottom: 0;}
+		
+		.mainContentWrapper{width:95%;}
+	    
+	    .navbar-toggle{float: left;margin: 0;} 
+	    .navbar-default .navbar-collapse, .navbar-default .navbar-form{margin: 5px 0 0 5px;}
+	    .navbar-default{padding: 0;border:none;}
+	    .contentBlock {width: 100%;padding: 10px 0 10px;}
+	    .blogsContainers{min-height: 0;} 
+	    .blogContent > p{font-size: 14px;}
+	    .blogsEnvelope{width:47%;margin: 0 0 30px 15px;}
+	    .registerEnvelope{width: 80%;}
+
+		.PaginationWrap{padding:10px 0 0 20px; }
+
+		.footerContent{width:95%;min-height: 0;}
+		.footerContent > p{padding: 5px 0 0;}
+	}
+
+			
+
+	@media only screen and (min-width : 769px) and (max-width : 1024px){
+		.collapseFilter{width: 30%;margin: 10px 0 0;padding: 10px 0 0;}
+		
+		.headerContent{width:95%;margin:10px 2.48% 0;padding:0;}
+		.logoSack{width:70.33%;}
+		.logoSack > p{font-size:16px;}
+        .authorImageSack > img{margin: 15px 0 0;}
+
+
+		.mainContentWrapper{width:100%;}
+		.panel-title{font-size: 12px;}
+		.tabLinks{font-size: 13px;}
+		main{margin: 5px 0 0;}
+		.contentBlock{width:69.33%;padding:10px 0 0 10px;}
+		.blogHeader {padding: 8px 15px;}
+		.blogHeader > h2{font-size: 14px;}
+		.blogContent {padding:15px 15px 5px}
+		.blogsContainers{min-height: 0;}
+		.blogsEnvelope{width:45.92%;margin: 0 0 20px 20px;}
+		.blogContent > p{font-size: 14px;}
+		.registerEnvelope{width: 80%;}
+
+		.PaginationWrap{padding:10px 0 0 20px; }
+
+		.footerContent{width:95%;min-height: 0;}
+		.footerContent > p{padding: 5px 0 0;}
+	}
+	@media only screen and (min-width :1025px) and (max-width : 1280px){
+
+		.headerContent{width:95%;margin: 10px 2.48% 0;padding: 0;}
+		.mainContentWrapper{width:95%;}
+		.contentBlock{padding:5px 20px 0 30px; }
+		.footerContent{width:95%;}
+		footer{padding: 0;}
+	}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ramesh G Jethwani</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0; user-scalable=0;">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/bower_components/eonasdan-bootstrap-datetimepicker/build/css/bootstrap-datetimepicker.min.css" />
+  <link rel="stylesheet" href="bower_components/trix/dist/trix.css"> 
+  <link rel="stylesheet" href="app.css">
+  <link rel="stylesheet" type="text/css" href="responsive.css">
+</head>
+<body ng-controller="mainController">
+  <!-- envelope starts -->
+  <div class="envelope row">
+    
+    <!-- header starts -->
+      <header>
+        <div class="row">
+          <div class="col-xs-12 headerContent">
+
+            <div class="col-xs-8 logoSack">
+                <a href="#!/article"><img src="images/logo.gif" class="img-responsive"></a>
+                <p>Ramesh G Jethwani is a prolific "Letters to Editor writer/columnist, who over the decades has written over a thousand "Letters to editor" and few columns, which have been widely published in leading newspapers in India and in GCC(Gulf countries),These letters to editor/ Columns are a testimony to the  power of his ideas,his letters and columns short and precious --have served a very useful purpose in drawing the attention of authorities about important issues concerning society and the governmnet. His  father always emphasized the importance of public service <a href="#!/profile"> Read more </a></p>
+            </div><!-- logoSack ends -->
+
+            <div class="col-xs-4 authorImageSack">
+              <span class="registerloginSector">
+                <a href="#!/form" ng-click="loginModal()" data-toggle="modal" data-target="#myModal">Login</a>
+                <a href="#!/form" ng-click="registerModal()" data-toggle="modal" data-target="#myModal">Register</a>
+              </span>  
+              <img src="images/ramesh-pic.gif" class="img-responsive">
+            </div><!-- authorImageSack ends -->
+          </div><!-- row ends -->
+        </div><!-- headerContent ends -->
+
+      </header>
+    <!-- header ends -->
+
+    <!-- main starts -->
+      <main>
+         <div ng-view ></div>
+
+          
+            </main><!-- main ends -->
+
+            <!-- footer starts -->
+            <footer>
+              <div class="footerContent">
+                        <p>All rights reserved, 2016. rameshjethwani.com</p>
+                        <p>Powered by <a href="http://qmpglobal.com" class="qmp" target="_blank">QMP</a></p>
+                      </div>
+            </footer><!-- footer ends -->
+
+        </div><!-- envelope ends -->
+ 
+
+  <!-- In production use:
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+  -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script type="text/javascript" src="/bower_components/moment/min/moment.min.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/4.1.3/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyCA0Uy43-Wxm-CWAtV57GDN_dls_L2n-m8",
+      authDomain: "rameshgjethwani-134f9.firebaseapp.com",
+      databaseURL: "https://rameshgjethwani-134f9.firebaseio.com",
+      projectId: "rameshgjethwani-134f9",
+      storageBucket: "rameshgjethwani-134f9.appspot.com",
+      messagingSenderId: "161789635160"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="https://cdn.firebase.com/libs/angularfire/2.0.1/angularfire.min.js"></script>   
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/eonasdan-bootstrap-datetimepicker/build/js/bootstrap-datetimepicker.min.js"></script>
+  <script src="bower_components/trix/dist/trix.js"></script>
+  <script src="bower_components/angular-messages/angular-messages.min.js"></script>
+  <script src="app.js"></script>
+  <script src="angular-trix.js"></script> 
+  <script src="home/home.js"></script>
+  <script src="add_Articles/addArticle.js"></script>
+  <script src="profile/profile.js"></script>
+  <script src="navbar/navbar.js"></script>
+  <script src="forms/form.js"></script>
+  <script src="data.service.js"></script>
+
+
+</body>
+</html>

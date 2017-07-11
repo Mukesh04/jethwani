@@ -1,0 +1,132 @@
+<div ng-controller="navbarCtrl">
+        <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                      </button>
+                  </div>
+
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                      <div class="panel-group" id="accordion">
+                          <div class="panel panel-default" ng-repeat="mainTitle in mainTitle">
+                              <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                      <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" data-target="#collapse{{mainTitle.id}}">
+                                        {{mainTitle.title}}
+                                      </a>
+                                  </h4>
+                              </div>
+                              <div id="collapse{{mainTitle.id}}" class="panel-collapse collapse" ng-class="{'in': mainTitle.id == 1}">
+                                  <div class="panel-body">
+                                      <ul type="none" ng-repeat="subTitle in subTitle" ng-if="subTitle.mainId == mainTitle.id">
+                                        <li><a href="#!/article/{{subTitle.id}}" ng-class="{'highlight': subTitle.id ==  selectedSubId}" ng-click="subtitleAttachArticle(subTitle.id)" class="tabLinks">{{subTitle.title}}</a></li>
+                                      </ul>
+                                      <a href="#" class="tabLinks" ng-click="onAddSubtitle(mainTitle.id)"
+                                       id="addAnotherTab" data-toggle="modal" data-target="#anotherTabContent" data-backdrop="static" data-keyboard="false">
+                                      Add Another Content</a>
+                                  </div>
+                              </div>
+                          </div><!-- panel accordian ends -->
+
+                      <!-- modal 1 open -->              
+
+                      <p style="margin:0 0 20px;"><a href="#!/article" id="addAnotherTab" data-toggle="modal" data-target="#anotherTabModal" data-backdrop="static" data-keyboard="false">Add Another Component</a></p> 
+                      <div id="anotherTabModal" class="modal fade" role="dialog">
+                            <div class="modal-dialog">
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <a href="index.html" class="profileBackToHome componentPrevious" data-dismiss="modal">Back To Home</a>
+                                        <h4 class="modal-title">Add Another Component</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="panel panel-info" >    
+                                            <div class="panel-body" >
+                                                <div id="login-alert" class="alert alert-danger col-sm-12"></div>
+                                                    
+                                                    <form  name="myForm" id="loginform" class="form-horizontal" role="form">
+                                                        
+                                                        <div class="input-group">
+                                                            <span class="input-group-addon requiredInput"><i class="fa fa-user-o" for="companyname" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                                                            <input id="companyname" type="text" ng-model="formData.companyname" ng-minlength="2" class="form-control" name="companyname" placeholder="Component Name"  required />
+                                                        </div>
+                                                      
+                                                        <div class="errorAlertMessage" ng-messages="myForm.companyname.$error" ng-show="myForm.companyname.$touched || myForm.$submitted">
+                                                            <div ng-message="required">Please  enter  the  Component  Name</div>
+                                                            <div ng-message="minlength">Component  Name  must  be  between  8  characters.</div>
+                                                        </div>
+                                                        
+                                                        <div class="loginButtons">
+                                                            <button type="submit" class="btn" id="btn-login"  ng-disabled="!myForm.$valid" ng-click="addComponent()" data-dismiss="modal">Add Tab</button>
+                                                            <button type="reset" id="btn-reset">Reset</button>
+                                                        </div> 
+                                                    </form>
+                                                </div>                     
+                                            </div>  
+                                        </div>
+                            
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><!-- anotherTabModal ends --> 
+                            <!-- modal 1 closed -->
+
+                            <!-- modal 2 open -->    
+                            <!-- anotherTabContent ends -->  
+                            <div id="anotherTabContent" class="modal fade" role="dialog">
+                                <div class="modal-dialog">
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <a href="index.html" class="profileBackToHome componentPrevious" data-dismiss="modal">Back To Home</a>
+                                            <h4 class="modal-title">Add Another Content</h4>
+                                        </div>
+                                        
+                                        <div class="modal-body">
+                                            <div class="panel panel-info" >    
+                                                <div class="panel-body" >
+                                                    <div id="login-alert" class="alert alert-danger col-sm-12"></div>
+
+                                                        <form name="RegisterForm" id="loginform" class="form-horizontal" role="form">
+                                                  
+                                                            <div class="input-group">
+                                                                <span class="input-group-addon requiredInput" for="registerContentTitle"><i class="fa fa-tags" aria-hidden="true"></i><sup class="starSymbol">*</sup></span>
+                                                                <input id="registerContentTitle" type="text" class="form-control" placeholder="Content Title"  ng-minlength="2" ng-model="formData.registerContentTitle"  name="registerContentTitle"  required>
+                                                            </div>
+
+                                                            <div class="errorAlertMessage" ng-messages="RegisterForm.registerContentTitle.$error" ng-show="RegisterForm.registerContentTitle.$touched || RegisterForm.$submitted">
+                                                                <div ng-message="required">Please  enter  the  Content  Title</div>
+                                                                <div ng-message="minlength">Content  Title must  be  between  8  characters.</div>
+                                                            </div>
+
+                                                            <div class="loginButtons">
+                                                                <button type="Submit" class="btn" id="btn-login" ng-disabled="!RegisterForm.$valid" ng-click="addComponentTitle()" data-dismiss="modal">Add Content</button>
+                                                                <button type="reset" id="btn-reset">Reset</button>
+                                                            </div>  
+                                                        </form>     
+                                                    </div>                     
+                                                </div>  
+                                            </div>
+                                  
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div><!-- anotherTabModal ends -->
+
+                                <!-- modal 2 closed -->
+
+                      </div>              
+                </div> <!--/.navbar-collapse -->
+          </div> <!--/.container-fluid -->
+      </nav> <!--nav ends -->
+  </div><!-- View3Ctrl ends -->

@@ -1,0 +1,224 @@
+{
+  "mainTitle" : [{
+    "title" : "Tributes/ Highlighting Distuingshed people",
+    "titleId" : 1 
+  },{
+    "title" : "PM/Modi's visits /Foreign dignitaries visits/NRI's issues",
+    "titleId" : 2 
+  },{
+    "title" : "Indias neighborhood / Foreign affairs",
+    "titleId" : 3
+  }],
+
+  "subTitle" : [{
+    "title" : "Tributes/Highlighting  legendary People",
+    "subId" : 1,
+    "mainId" : 1
+  },{
+    "title" : "Tributes to Mothers/Mother's day",
+    "subId" : 2,
+    "mainId" : 1
+  },{
+    "title" : "Tribute/highlighting Important(VIP's) people of UAE",
+    "subId" : 3,
+    "mainId" : 1
+  },{
+    "title" : "P.M/Modi's visits Abroad",
+    "subId" : 1,
+    "mainId" : 2
+  },{
+    "title" : "International Dignitaries visits to India",
+    "subId" : 2,
+    "mainId" : 2
+  },{
+    "title" : "NRIs issues",
+    "subId" : 3,
+    "mainId" : 2
+  },{
+    "title" : "India- Pakistan/Indus water Treaty(I.W.T)",
+    "subId" : 1,
+    "mainId" : 3
+  },{
+    "title" : "Pakistan/Afghanistan Nepal/Myanmar/Sri Lanka/Maldieves",
+    "subId" : 2,
+    "mainId" : 3
+  },{
+    "title" : "Dubai-2008",
+    "subId" : 3,
+    "mainId" : 3
+  }],
+
+  "articles" : [{
+  "articleTitle" : "'SWAMI VIVEKANANDA' ONE OF THE GREATEST HISTORICAL FIGURE OF INDIA'",
+  "mainTitle" : 1,
+  "subTitle" : 1,
+  "article" : "Sir,One of the most eminent social reformer, patriotic saint ,intellectual and spiritual person,India has ever produced is 'Swami Vivekananda',in spite of being born in an affluent Bengali family in Kolkata,he had displayed his sharp intellect towards",
+  "timeStamp" : 1497162364
+},{
+  "articleTitle" : "DESERVES BHARAT RATNA The Tribune,29th May,2017,L.E.",
+  "mainTitle" : 1,
+  "subTitle" : 1,
+  "article" : "Refer to ‘KPS Gill dies at 82’ (May 27); if there is one person in contemporary history of nation who deserved the Bharat Ratna, it was the legendary KPS Gill for his war on terrorism in Punjab. He was a devout Sikh, but the police uniform was also",
+  "timeStamp" : 1497162600
+},{
+  "articleTitle" : "SARDAR PATEL AN EMBODIMENT OF NATIONAL UNITY",
+  "mainTitle" : 1,
+  "subTitle" : 1,
+  "article" : "Sir, I will like to pay my humble tribute to Sardar Vallabhbhai Jhaverbhai Patel ,a great statesman,scholar,with extraordinary strong administrative skills ,one of the prominent founding fathers of Republic of India who played key role not only",
+  "timeStamp" : 1497162601
+},{
+  "articleTitle" : "MOTHER’S DAY Arab News | Published — Sunday 8 May,2016.L.E.",
+  "mainTitle" : 1,
+  "subTitle" : 2,
+  "article" : "On the occasion of Mother’s Day, I would like to pay my humble tribute to all mothers. In our lives, mothers play a very significant role in upbringing children.Mothers are God’s best gift to mankind and without them a huge vacuum is created in a person’s life. Mothers are children’s first",
+  "timeStamp" : 1497162365
+},{
+  "articleTitle" : "MOTHER’S DAY Khaleej times by email / 13 May 2012-L.E",
+  "mainTitle" : 1,
+  "subTitle" : 2,
+  "article" : "Mother’s day is a celebration in honour of our mothers and motherhood — and is celebrated in the month of May. Mothers play a very significant role in upbringing their children, which can’t be compared and is an unforgettable experience that can’t be compensated by any means",
+  "timeStamp" : 1497162604
+},{
+  "articleTitle" : "TRIBUTE TO MOTHERS Khaleej times,January 2012,LE.",
+  "mainTitle" : 1,
+  "subTitle" : 2,
+  "article" : "Refer ‘A Tribute to mothers’ by Bikram Vohra (KT/ Jan 5), I would also like to pay my tribute to all mothers and especially my mother who passed away recently due to cancer. A mother is the best gift of God and without her there is vacuum in life. A mother is a child’s first",
+  "timeStamp" : 1497162605
+},{
+  "articleTitle" : "TRIBUTE TO SHEIKH ZAYED",
+  "mainTitle" : 1,
+  "subTitle" : 3,
+  "article" : "Sir,SHEIKH ZAYED bin Sultan Al Nahyan, President of the United Arab Emirates(UAE) and the ruler of Abu Dhabi , who passed away on Nov. 2, 2004. was one of the visionary leader who strived hard not only for the good of his country but for the entire region",
+  "timeStamp" : 1497162366
+},{
+  "articleTitle" : "MSHEIKH RASHID A WISE AND TALENTED RULER.",
+  "mainTitle" : 1,
+  "subTitle" : 3,
+  "article" : "Sir,The Sheikh Rashid Bin Saeed al Maktoum,the Ruler of Dubai and Prime minister of UAE was regarded as a very wise,fair,humble and talented ruler, Today only due to his farsightedness and sharp vision, Dubai has been transformed from a small",
+  "timeStamp" : 1497162606
+},{
+  "articleTitle" : "WISE AND VISIONARY RULER (Sheikh Rashid bin Ahmed Al Mualla of Umm Al Qaiwan)",
+  "mainTitle" : 1,
+  "subTitle" : 3,
+  "article" : "Sir, His Highness the Sheikh Rashid bin Ahmed Al Mualla who passed away on Jan,2, 2009,was the tenth in the line of rulers of Emirates of Umm Al Qaiwan, which was established as a separate Emirate in 1775,by Sheikh Majid Al Mualla",
+  "timeStamp" : 1497162607
+},{
+  "articleTitle" : "MODI'S VISIT-ARAB NEWS Tuesday 5 April 2016 -L.E.",
+  "mainTitle" : 2,
+  "subTitle" : 1,
+  "article" : "Sir The two-day visit of Indian Prime Minister Narendra Modi visit to the Kingdom of Saudi Arabia was very successful. The current global volatility requires better cooperation among nations especially among regional players. Modi’s policy of engaging the world is a laudable step especially with the GCC countries",
+  "timeStamp" : 1497162368
+},{
+  "articleTitle" : "BOOSTING TIES Deccan Herald-05 April 2016-LE.",
+  "mainTitle" : 2,
+  "subTitle" : 1,
+  "article" : "Dear Sir, Sir, The two-day visit of PM Narendra Modi to Saudi Arabia is a welcome gesture. In view of the present volatility prevailing in West Asia, Modi's policy of engaging the GCC countries is laudable. Today, the Gulf region is an area of vital importance for India's energy security and economy. Modi's key objective should be to convince",
+  "timeStamp" : 1497162608
+},{
+  "articleTitle" : "STRENGTHENING TIES THE PIONEER-FRIDAY, 27 MAY 2016",
+  "mainTitle" : 2,
+  "subTitle" : 1,
+  "article" : "This refers to the editorial, “Chabahar and beyond” (May 25). Prime Minister Narendra Modi’s just concluded visit to Iran will further expand political, cultural and economic ties between India and Iran, who share longstanding civilisational ties. On the other hand",
+  "timeStamp" : 1497162609
+},{
+  "articleTitle" : "OBAMA IN INDIA Deccan Chronicle 9 November 2010-L.E.",
+  "mainTitle" : 2,
+  "subTitle" : 2,
+  "article" : "This is regarding your editorial about US President Barack Obama’s visit to India. Yes, this is more of a business trip with Obama himself acting as CEO of 200 large American companies. US economy is in the doldrums. Politically also the US is facing difficult times with two unfinished wars and the threat of terrorism. Hence it is more important for India",
+  "timeStamp" : 1497162355
+},{
+  "articleTitle" : "ALLIANCE OF CONVENIENCE Deccen Herald,26th Jan,2017,L.E.",
+  "mainTitle" : 2,
+  "subTitle" : 2,
+  "article" : "Sir, Apropos 'Modi breaks protocol' (DH, Jan 25). The three-day visit of the crown prince of Abu Dhabi Mohammed bin Zayed Al Nahyan to India as the chief guest of honour at the 68th Republic Day marks a further improvement of relations between India and the GCC",
+  "timeStamp" : 1497162609
+},{
+  "articleTitle" : "BRIDGING THE GULF WITH THE UAE AND OTHERS THE PIONEER,THURSDAY, 26 JANUARY 2017 | RAMESH G JETHWANI | BANGALORE,L.E",
+  "mainTitle" : 2,
+  "subTitle" : 2,
+  "article" : "The UAE is India's third largest trading partner This refers to the editorial, “New India-UAE warmth” (January 25). The three-day visit of the Crown Prince of Abu Dhabi, Sheikh Mohammed bin Zayed Al Nahyan, to India as the chief guest at the Republic Day",
+  "timeStamp" : 1497162610
+},{
+  "articleTitle" : "REPATRIATION OF BODIES Arab News | Published — Sunday 22 May 2016-L.E.",
+  "mainTitle" : 2,
+  "subTitle" : 3,
+  "article" : "I would like to bring to the attention of the Indian government the issue of repatriating bodies of Indian nationals who pass away in foreign lands. It is an important humanitarian issue and our government should take all possible measures to ensure smooth service to our countrymen living abroad particularly in the GCC countries",
+  "timeStamp" : 1497162370
+},{
+  "articleTitle" : "EVACUATE INDIANS DNA India 2 March 2011-L.E.",
+  "mainTitle" : 2,
+  "subTitle" : 3,
+  "article" : "Indians should be evacuated from Libya on war footing before EU declares it a no fly zone. In Libya, unlike in Tunisia, Yemen and Bahrain, there is a civil war situation and a large number of people have died. There is complete",
+  "timeStamp" : 1497162620
+},{
+  "articleTitle" : "EVACUATION FROM LIBYA Khaleej Times--4 March 2011--LE",
+  "mainTitle" : 2,
+  "subTitle" : 3,
+  "article" : "India should complete evacuation from Libya on war footing. Although many countries have already completed evacuations of their nationals from Libya and India also started, it should be speeded up on a war scale evacuation basis before a no-fly zone over Libya is imposed",
+  "timeStamp" : 1497162621
+},{
+  "articleTitle" : "Time for India, Pakistan to tackle poverty",
+  "mainTitle" : 3,
+  "subTitle" : 1,
+  "article" : "Sir, A fallout of the Kargil conflict which has just ended following the withdrawal of Pakistani troops from the Indian side of the Line of Control is the cost of the war and the consequent burden on the economies of both India and Pakistan. It is a sad commentary that even though both",
+  "timeStamp" : 1497162368
+},{
+  "articleTitle" : "SETTLE SIACHEN ISSUE",
+  "mainTitle" : 3,
+  "subTitle" : 1,
+  "article" : "Sir, This refers to “High time Siachen issue is settled (HD-13thFeb).”The sad and untimely demise of Naik hanmanthappa Kopad and 9 others have brought to the focus the urgent need for finding lasting solution for demillitarisation of Siachen Glacier",
+  "timeStamp" : 1497162608
+},{
+  "articleTitle" : "Zardari's India visit",
+  "mainTitle" : 3,
+  "subTitle" : 1,
+  "article" : "There has been a lot of media hype in India over Pakistani President Asif Ali Zardari's Ajmer visit. Though it was said to be a personnel visit, he and members of his delegation met Prime Minister Manmohan Singh over lunch and discussed",
+  "timeStamp" : 1497162609
+},{
+  "articleTitle" : "Frank Indo- Pak diplomacy will hurt none",
+  "mainTitle" : 3,
+  "subTitle" : 2,
+  "article" : "Sir, The surprise meeting of the NSA's of India and Pakistan in Hong Kong is a major diplomatic breakthrough, given the two sides had earlier engaged in mutual blame game resulting in cancellation of talks. External affairs Minister Sushma Swaraj's visit to Islamabad to attend the conference on Afghanistan",
+  "timeStamp" : 1497162355
+},{
+  "articleTitle" : "TURMOIL IN  PAK  (Killing of Journalist)",
+  "mainTitle" : 3,
+  "subTitle" : 2,
+  "article" : "It is appalling that the escalating violence in the neighboring country has been taking a toll on media persons besides the common man (ISI behind journo death?, June 1). The brutal murder of prominent journalist and bureau chief of Asia Times Online, Syed Saleem Shahzad, should",
+  "timeStamp" : 1497162609
+},{
+  "articleTitle" : "Pak injustice-L.E.",
+  "mainTitle" : 3,
+  "subTitle" : 2,
+  "article" : "Sir, The death of Baloch nationalist leader Akbar Bugti in a military for Pakistan. Earlier, such high-handedness was used against Bhutto and Jio Sindh movement chief G.M Sayed. Pakistan should remember that it lost its eastern territory, which became Bangladesh in 1971, as a result of the use of military", 
+  "timeStamp" : 1497162610
+},{
+  "articleTitle" : " The Dubai problem was waiting to happen Deccan Herald December 2009-L.E. ",
+  "mainTitle" : 3,
+  "subTitle" : 3,
+  "article" : "Sir, Although financiers and investors around the world have been shaken by the announcement of the government of Emirate of Dubai seeking postponement of debt repayment at its holding conglomerate Dubai World, this development is neither accidental",
+  "timeStamp" : 1497162370
+},{
+  "articleTitle" : " Dubai's downfall was expected DNA India 1 December 2009-L.E",
+  "mainTitle" : 3,
+  "subTitle" : 3,
+  "article" : "I fully agree with the column written by Khalaf Al-Habtoor (“Gulf states are the Arab nation’s backbone,” Jan. 17). He is not only a prominent Emirati businessman, but a leading elder statesman of the entire Arab world whose views are well appreciated and respected",
+  "timeStamp" : 1497162620
+},{
+  "articleTitle" : " DUBAI DISASTER Deccan Chronicle 30 November  2009-L.E.",
+  "mainTitle" : 3,
+  "subTitle" : 3,
+  "article" : "Although investors around the world have been shaken by the announcement of the government of Emirate of Dubai seeking debt repayment, the development does not come as a surprise as there were enough warning signs for quite Some time. In fact this was a",
+  "timeStamp" : 1497162621
+}]
+}
+
+
+
+
+
+
+
+
+
+
